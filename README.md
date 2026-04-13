@@ -19,7 +19,7 @@ A lightweight Forge compatibility mod that fixes Apotheosis gems being rejected 
 ## Installation
 
 1. Install Minecraft Forge for 1.20.1.
-2. Place `apothsb-1.0.0.jar` into your `mods/` folder alongside Apotheosis and Sophisticated Backpacks.
+2. Place `apothsb-1.0.1.jar` into your `mods/` folder alongside Apotheosis and Sophisticated Backpacks.
 3. Launch the game. The mod activates automatically when both target mods are detected.
 
 ## Compatibility
