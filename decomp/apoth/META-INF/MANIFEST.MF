@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: Apotheosis
+Specification-Vendor: Shadows_of_Fire
+Specification-Version: 1.0
+Implementation-Title: Apotheosis
+Implementation-Version: 7.4.8
+Implementation-Vendor: Shadows_of_Fire
+Implementation-Timestamp: 2025-04-24T22:20:09-0700
+MixinConfigs: apotheosis.mixins.json
+
