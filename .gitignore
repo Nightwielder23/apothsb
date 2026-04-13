@@ -27,3 +27,6 @@ local.properties
 
 # Files from Forge MDK
 forge*changelog.txt
+
+# libs
+libs/*.jar
