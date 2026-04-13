@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "net/p3pp3rf1y/sophisticatedcore/mixin/MixinAbstractContraptionEntity": {
+      "remove": "Lcom/simibubi/create/content/contraptions/AbstractContraptionEntity;m_142687_(Lnet/minecraft/world/entity/Entity$RemovalReason;)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "net/p3pp3rf1y/sophisticatedcore/mixin/MixinAbstractContraptionEntity": {
+        "remove": "Lcom/simibubi/create/content/contraptions/AbstractContraptionEntity;m_142687_(Lnet/minecraft/world/entity/Entity$RemovalReason;)V"
+      }
+    }
+  }
+}
