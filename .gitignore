@@ -5,21 +5,28 @@ bin
 .metadata
 .classpath
 .project
+eclipse
 
 # idea
-out
+.idea/
+*.iml
 *.ipr
 *.iws
-*.iml
-.idea
+out/
 
 # gradle
-build
-.gradle
+.gradle/
+build/
 
-# other
-eclipse
-run
+# runtime
+run/
+decomp/
+*.log
+local.properties
+
+# tooling
+.claude/
+CLAUDE.md
 
 # Files from Forge MDK
 forge*changelog.txt

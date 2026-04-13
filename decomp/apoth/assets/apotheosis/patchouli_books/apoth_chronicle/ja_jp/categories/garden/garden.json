@@ -1,6 +1,0 @@
-{
-    "name": "ガーデンモジュール",
-    "description": "ガーデンモジュールは、植物に関するランダム要素についての変更を担う部分です",
-    "icon": "minecraft:sugar_cane",
-	"flag": "apotheosis:garden"
-}
