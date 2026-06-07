@@ -1,44 +1,19 @@
 # ApothSB
 
-A lightweight Forge compatibility mod that fixes Apotheosis gems being rejected by Sophisticated Backpacks tag filter slots.
+Tiny Forge compatibility patch for 1.20.1. Apotheosis gems aren't in any item tag, so the filter, pickup, and magnet upgrade slots in Sophisticated Backpacks reject them. ApothSB drops the gem item into the `apotheosis:gem` tag so those slots will accept it.
 
-## Features
-
-* Allows Apotheosis gems to be placed into Sophisticated Backpacks tag filter slots.
-* Enables tag-based filtering (Pickup, Magnet, Filter, and similar upgrades) to recognize gems as a filterable tag.
-* Adds the `apotheosis:gem` item to the `apotheosis:gem` item tag via a datapack tag entry, with a runtime fallback that injects the tag through `TagsUpdatedEvent`.
-* Soft dependency on both target mods: does nothing unless Apotheosis and Sophisticated Backpacks are both present.
-* No mixins, no Mixin runtime conflicts, no access transformers.
+The fix is a small datapack tag entry, with no mixins and no access transformer. The patch does nothing unless both Apotheosis and Sophisticated Backpacks are installed.
 
 ## Requirements
 
-* [Apotheosis](https://www.curseforge.com/minecraft/mc-mods/apotheosis) (required)
-* [Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks) (required)
-* Sophisticated Core (required, installed automatically with Sophisticated Backpacks)
+- Minecraft 1.20.1, Forge 47.x
+- [Apotheosis](https://www.curseforge.com/minecraft/mc-mods/apotheosis), tested against 7.x
+- [Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks), 3.x
 
-## Installation
+## Building
 
-1. Install Minecraft Forge for 1.20.1.
-2. Place `apothsb-1.0.1.jar` into your `mods/` folder alongside Apotheosis and Sophisticated Backpacks.
-3. Launch the game. The mod activates automatically when both target mods are detected.
-
-## Compatibility
-
-* Minecraft 1.20.1
-* Minecraft Forge 47.x
-* Apotheosis 7.x
-* Sophisticated Backpacks 3.x
-
-## Building from Source
-
-```
-git clone https://github.com/Nightwielder23/apothsb
-cd apothsb
-./gradlew build
-```
-
-The output jar is placed in `build/libs/`.
+Run `./gradlew build`. The jar lands in `build/libs/`.
 
 ## License
 
-Released under the MIT License. See [LICENSE](LICENSE) for the full text.
+MIT, see [LICENSE](LICENSE).
