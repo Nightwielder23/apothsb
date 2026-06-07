@@ -10,10 +10,6 @@ The fix is a small datapack tag entry, with no mixins and no access transformer.
 - [Apotheosis](https://www.curseforge.com/minecraft/mc-mods/apotheosis), tested against 7.x
 - [Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks), 3.x
 
-## Building
-
-Run `./gradlew build`. The jar lands in `build/libs/`.
-
 ## License
 
 MIT, see [LICENSE](LICENSE).
